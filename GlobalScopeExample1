@@ -1,0 +1,4 @@
+pi = 3.14 # pi was declared outside of a function so it's a global scope
+
+def get_area_of_circle(radius):
+    return pi * radius * radius
