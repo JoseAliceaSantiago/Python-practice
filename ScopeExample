@@ -1,0 +1,12 @@
+
+def func1():
+        print("Hello")
+def main():
+    k=0
+    for i in range(10):
+        func1()
+        k = k + 1
+    return print(f"Total: {k} Hellos")
+
+
+main()
